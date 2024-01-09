@@ -1,0 +1,99 @@
+.container{
+    background: white;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    margin-top: 80px;
+    max-width: 20rem;
+    padding: 20px;
+    border: none;
+    border-radius: 13px;
+}
+
+.container .header{
+    text-align: center;
+    display: block;
+    position: relative;
+    margin-bottom: 25px;
+}
+.header .signup{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: crimson;
+}
+.header .underline{
+    background: crimson;
+    height: 3px;
+    margin-top: 5px;
+    width: 80px;
+    margin-left: 100px;
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .inputs{
+    position: relative;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inputs .input input{
+    margin-bottom: 18px;
+    height: 40px;
+    width: 100%;
+    font-size:15px;
+    padding-left: 5px;
+    color: rgb(80, 79, 79);
+    outline-color: crimson;
+    outline-width: .4px;
+    border-radius: 8px;
+    border: 0.5px solid rgb(66, 65, 65);
+}
+
+.forgot-password{
+    margin-top: -26px;
+    margin-bottom: 55px;
+    color: rgb(103, 102, 102);
+}
+
+span{
+    color: purple;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.container .submit-container{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 10px;
+}
+
+.container .submit-container .submit{
+    background: crimson;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+.submit-container .submit:hover{
+    background: rgb(189, 12, 48);
+    transition: all 0.8s;
+}
+.submit-container .gry{
+    background: #EAEAEA;
+    color: #676767;
+}
